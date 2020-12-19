@@ -8,6 +8,12 @@ h2{
     text-align: center;
 }
 
+p{
+    color:white;
+    font-size: 17px;
+    text-justify: center;
+}
+
 #mainh{
     text-align:center;
     font-size:100px;
@@ -29,12 +35,13 @@ h2{
         {
         margin: 0;
         padding: 0;
-        display: inline-block;
+        /* display: inline-block; */
         }
 
 .nav ul li
         {
         list-style: none;
+        display: inline-block;
         }
 
 .nav ul li a
