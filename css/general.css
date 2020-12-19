@@ -14,6 +14,13 @@ iframe{
     align-self:center;
 }
 
+button{
+    background-color: black;
+    color: white;
+    height:30px;
+    width:88px;
+}
+
 
 /* https://stackoverflow.com/questions/6952233/set-a-div-width-align-div-center-and-text-align-left */
 .bdy{
