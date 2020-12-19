@@ -5,7 +5,7 @@ h2{
 }
 
 p{
-    color:white;
+    color:black;
     font-size: 17px;
     text-justify: center;
 }
@@ -16,6 +16,31 @@ p{
     margin:0 auto;
     width: 851px;
     background-color:white;
+    padding: 10px 40px;
+}
+
+#firstname{
+    height:30px;
+    width:400px;
+}
+
+#lastname{
+    height:30px;
+    width:400px;
+}
+
+#email{
+    height:30px;
+    width:810px;
+}
+#nearest{
+    height:30px;
+    width:810px;
+}
+
+#message{
+    height:100px;
+    width:97%;
 }
 
 #mainh{
@@ -69,7 +94,7 @@ a{
 }
 
 a:hover{
-    color:lightyellow;
+    color:darkorange;
 }
 /* 
 .nav ul li a:checked
