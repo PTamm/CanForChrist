@@ -24,10 +24,25 @@
             <h2><em>Reaching Canada with the Gospel of Jesus Christ</em></h2>
             <h2 id="phone">780-467-2636</h2>
             
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
                 <table>
                     <tr>
+                        <td>Name *</td>
+                    </tr>
+                    <tr>
                         <td><input id="firstname" type="text" required></td>
+                        <td><input id="lastname" type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                    </tr>
+                    <tr style="height:5px;"></tr>
+                    <tr>
+                        <td>Email*</td>
+                    </tr>
+                    <tr>
+                        <td><input id="email" type="text" required></td>
                     </tr>
                 </table>
             </form>
