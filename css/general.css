@@ -1,0 +1,73 @@
+body{
+    background:lightblue;
+}
+
+h2{
+    color:lightyellow;
+    text-decoration: italics;
+    text-align: center;
+}
+
+p{
+    color:white;
+    font-size: 17px;
+    text-justify: center;
+}
+
+#mainh{
+    text-align:center;
+    font-size:100px;
+    color: white;
+}
+
+#phone{
+    color:grey;
+}
+
+
+/* https://stackoverflow.com/questions/28630433/how-to-align-navbar-to-center-with-css */
+/* https://stackoverflow.com/users/2680216/josh-crozier */
+.nav{
+    text-align: center;
+}
+
+.nav ul
+        {
+        margin: 0;
+        padding: 0;
+        }
+
+.nav ul li
+        {
+        list-style: none;
+        display: inline-block;
+        }
+
+.nav ul li a
+        {
+        text-decoration: none;
+        font-size: 16px;
+        float: left;
+        display: block;
+        padding: 10px 20px;
+        color: white;
+        }
+
+.nav ul li a:hover
+        {
+        color: lightyellow;
+
+        }
+
+a{
+    color:lightsalmon;
+}
+
+a:hover{
+    color:lightyellow;
+}
+/* 
+.nav ul li a:checked
+        {
+        color:lightyellow;
+        } */
