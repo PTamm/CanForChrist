@@ -24,6 +24,11 @@ p{
     color:grey;
 }
 
+.bdy{
+    margin:0 auto;
+    width: 851px;
+}
+
 
 /* https://stackoverflow.com/questions/28630433/how-to-align-navbar-to-center-with-css */
 /* https://stackoverflow.com/users/2680216/josh-crozier */
@@ -31,11 +36,11 @@ p{
     text-align: center;
 }
 
+
 .nav ul
         {
         margin: 0;
         padding: 0;
-        /* display: inline-block; */
         }
 
 .nav ul li
@@ -52,17 +57,9 @@ p{
         display: block;
         padding: 10px 20px;
         color: white;
-        /* background: darkslategray; */
         }
 
 .nav ul li a:hover
         {
-        /* text-decoration: underline; */
         color: lightyellow;
-        /* background: ivory; */
         }
-/* 
-.nav ul li a:checked
-        {
-        color:lightyellow;
-        } */

@@ -14,6 +14,12 @@ p{
     text-justify: center;
 }
 
+
+.bdy{
+    margin:0 auto;
+    width: 851px;
+}
+
 #mainh{
     text-align:center;
     font-size:100px;
