@@ -1,5 +1,5 @@
 h2{
-    color:lightyellow;
+    color:rgb(255, 255, 147);;
     text-decoration: italics;
     text-align: center;
 }
@@ -61,5 +61,5 @@ p{
 
 .nav ul li a:hover
         {
-        color: lightyellow;
+        color: rgb(255, 255, 147);
         }
