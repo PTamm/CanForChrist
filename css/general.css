@@ -1,7 +1,3 @@
-body{
-    background:lightblue;
-}
-
 h2{
     color:lightyellow;
     text-decoration: italics;
@@ -15,15 +11,18 @@ p{
 }
 
 
+/* https://stackoverflow.com/questions/6952233/set-a-div-width-align-div-center-and-text-align-left */
 .bdy{
     margin:0 auto;
     width: 851px;
+    background-color:white;
 }
 
 #mainh{
     text-align:center;
     font-size:100px;
     color: white;
+    opacity: 1;
 }
 
 #phone{
