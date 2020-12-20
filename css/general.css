@@ -75,6 +75,10 @@ button:hover{
     color:grey;
 }
 
+#details{
+    font-size:24px;
+}
+
 
 /* https://stackoverflow.com/questions/28630433/how-to-align-navbar-to-center-with-css */
 /* https://stackoverflow.com/users/2680216/josh-crozier */
