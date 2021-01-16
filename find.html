@@ -7,7 +7,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="photos/CanForChrist_MapleLeaf.png"/>
         <!-- <link rel="canonical" href="http://canadaforchrist.ca"/> -->
         <link rel="stylesheet" type="text/css" href="css/general.css">
-        
+        <script src="javascript/form.js"></script>
     </head>
     
     <body style="background-image: url('photos/saskatoon.jpg');background-size: 100% 150%; background-repeat: no-repeat;">
@@ -26,22 +26,19 @@
             <div class="bdy">
             <p>Attending a church that believes and teaches the Bible is an important part of your spiritual growth. We'd love to help you find a Bible-believing church in your area.</p>
                 <form name="contact" method="POST" data-netlify="true">
-                    <p id="details">
-                        Contact Details*
+                    <p>
+                        <label id="firstlabel">*First Name:<input type="text" id="firstname" name="firstname" onblur="checkFirstName();" required/></label>
                     </p>
                     <p>
-                        <label>First Name:<input type="text" id="firstname" name="firstname"/></label>
+                        <label id="lastlabel">*Last Name:<input type="text" id="lastname" name="lastname" onblur="checkLastName();" required/></label>
                     </p>
                     <p>
-                        <label>Last Name:<input type="text" id="lastname" name="lastname"/></label>
+                        <label id="elabel">*Email:<input type="email" id="email" name="email" onblur="checkEmail();" required/></label>
                     </p>
+                    <p id="nearlabel">
+                        *Please let us know where you live so we can help you find the nearest Bible-believing church
                     <p>
-                        <label>Email:<input type="email" id="email" name="email"/></label>
-                    </p>
-                    <p>
-                        Please let us know where you live so we can help you find the nearest Bible-believing church
-                    <p>
-                        <input type="text" id="nearest" name="nearest">
+                        <input type="text" id="nearest" name="nearest" onblur="checkNearest();" required/>
                     </p>
                     <p>
                         Please enter a brief message:
