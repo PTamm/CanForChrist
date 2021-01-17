@@ -1,12 +1,14 @@
 h2{
     color:rgb(255, 255, 147);
     text-decoration: italics;
+    font-family: sans-serif;
     text-align: center;
 }
 
 p{
     color:black;
     font-size: 17px;
+    font-family: sans-serif;
     text-justify: center;
 }
 
@@ -25,6 +27,13 @@ button:hover{
     background-color:grey;
 }
 
+#main{
+    background-image: url('../photos/saskatoon.jpg');
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
 
 /* https://stackoverflow.com/questions/6952233/set-a-div-width-align-div-center-and-text-align-left */
 .bdy{
@@ -33,6 +42,15 @@ button:hover{
     background-color:white;
     padding: 10px 40px;
 }
+
+#video{
+    text-align: center;
+}
+
+#img{
+    text-align: center;
+}
+
 #head{
     background-color:rgb(29, 29, 43);
     width:851px;
@@ -67,6 +85,7 @@ button:hover{
 #mainh{
     text-align:center;
     font-size:70px;
+    font-family: sans-serif;
     color: white;
     opacity: 1;
 }
