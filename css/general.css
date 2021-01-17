@@ -47,6 +47,10 @@ button:hover{
     text-align: center;
 }
 
+#img{
+    text-align: center;
+}
+
 #head{
     background-color:rgb(29, 29, 43);
     width:851px;
