@@ -1,18 +1,21 @@
 h2{
     color:rgb(255, 255, 147);;
     text-decoration: italics;
+    font-family: sans-serif;
     text-align: center;
 }
 
 p{
     color:white;
     font-size: 17px;
+    font-family:sans-serif;
     text-justify: center;
 }
 
 #mainh{
     text-align:center;
     font-size:100px;
+    font-family: sans-serif;
     color: white;
     opacity:1;
 }
