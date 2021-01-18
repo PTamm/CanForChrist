@@ -58,6 +58,19 @@ button:hover {
   opacity: 0.8;
 }
 
+#copyright {
+  background-color: rgb(29, 29, 43);
+  width: 851px;
+  margin: 0 auto;
+  padding: 10px 40px;
+  opacity: 0.8;
+}
+
+#cpyrt {
+  color: white;
+  text-align: center;
+}
+
 #firstname {
   height: 30px;
   width: 400px;
