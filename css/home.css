@@ -25,7 +25,8 @@ p {
 }
 
 #main {
-  background-image: url("../photos/parliament.jpg");
+  /* Photo by Shubham Sharan on Unsplash */
+  background-image: url("../photos/parliament1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
