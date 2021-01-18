@@ -1,143 +1,139 @@
-h2{
-    color:rgb(255, 255, 147);
-    text-decoration: italics;
-    font-family: sans-serif;
-    text-align: center;
+h2 {
+  color: rgb(255, 255, 147);
+  text-decoration: italics;
+  font-family: sans-serif;
+  text-align: center;
 }
 
-p{
-    color:black;
-    font-size: 17px;
-    font-family: sans-serif;
-    text-justify: center;
+p {
+  color: black;
+  font-size: 17px;
+  font-family: sans-serif;
+  text-justify: center;
 }
 
-iframe{
-    align-self:center;
+iframe {
+  align-self: center;
 }
 
-button{
-    background-color: black;
-    color: white;
-    height:30px;
-    width:88px;
+button {
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 88px;
 }
 
-button:hover{
-    background-color:grey;
+button:hover {
+  background-color: grey;
 }
 
-#main{
-    background-image: url('../photos/saskatoon.jpg');
-    background-size: 100% 100%; 
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+#main {
+  background-image: url("../photos/saskatoon.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-
 
 /* https://stackoverflow.com/questions/6952233/set-a-div-width-align-div-center-and-text-align-left */
-.bdy{
-    margin:0 auto;
-    width: 851px;
-    background-color:white;
-    padding: 10px 40px;
+.bdy {
+  margin: 0 auto;
+  width: 851px;
+  background-color: white;
+  padding: 10px 40px;
 }
 
-#video{
-    text-align: center;
+#video {
+  text-align: center;
 }
 
-#img{
-    text-align: center;
+#img {
+  text-align: center;
 }
 
-#head{
-    background-color:rgb(29, 29, 43);
-    width:851px;
-    margin:0 auto;
-    padding:10px 40px;
+#head {
+  background-color: rgb(29, 29, 43);
+  width: 851px;
+  margin: 0 auto;
+  padding: 10px 40px;
+  opacity: 0.8;
 }
 
-#firstname{
-    height:30px;
-    width:400px;
+#firstname {
+  height: 30px;
+  width: 400px;
 }
 
-#lastname{
-    height:30px;
-    width:400px;
+#lastname {
+  height: 30px;
+  width: 400px;
 }
 
-#email{
-    height:30px;
-    width:810px;
+#email {
+  height: 30px;
+  width: 810px;
 }
-#nearest{
-    height:30px;
-    width:810px;
-}
-
-#message{
-    height:100px;
-    width:97%;
+#nearest {
+  height: 30px;
+  width: 810px;
 }
 
-#mainh{
-    text-align:center;
-    font-size:70px;
-    font-family: sans-serif;
-    color: white;
-    opacity: 1;
+#message {
+  height: 100px;
+  width: 97%;
 }
 
-#phone{
-    color:grey;
+#mainh {
+  text-align: center;
+  font-size: 70px;
+  font-family: sans-serif;
+  color: white;
+  opacity: 1;
 }
 
-#details{
-    font-size:24px;
+#phone {
+  color: grey;
 }
 
+#details {
+  font-size: 24px;
+}
 
 /* https://stackoverflow.com/questions/28630433/how-to-align-navbar-to-center-with-css */
 /* https://stackoverflow.com/users/2680216/josh-crozier */
-.nav{
-    text-align: center;
+.nav {
+  text-align: center;
+  padding: 3vh;
 }
 
-.nav ul
-        {
-        margin: 0;
-        padding: 0;
-        }
-
-.nav ul li
-        {
-        list-style: none;
-        display: inline-block;
-        }
-
-.nav ul li a
-        {
-        text-decoration: none;
-        font-size: 16px;
-        float: left;
-        display: block;
-        padding: 10px 20px;
-        color: white;
-        }
-
-.nav ul li a:hover
-        {
-        color: rgb(255, 255, 147);
-        }
-
-a{
-    color:lightsalmon;
+.nav ul {
+  margin: 0;
+  padding: 0;
 }
 
-a:hover{
-    color:darkorange;
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  color: white;
+}
+
+.nav ul li a:hover {
+  color: rgb(255, 255, 147);
+}
+
+a {
+  color: lightsalmon;
+}
+
+a:hover {
+  color: darkorange;
 }
 /* 
 .nav ul li a:checked
